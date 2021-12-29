@@ -375,7 +375,7 @@ img {
 
 .policy-box-modal a {
     color: var(--blue-color);
-    text-decoration-skip-ink: none;
+    text-decoration: underline;
 }
 
 .custom-checkbox-modal {
@@ -403,7 +403,6 @@ img {
 .custom-icon-policy {
     margin-top: -3px;
     margin-left: -2.5px;
-    opacity: 0;
 }
 
 .policy-checkbox-modal:checked + .custom-checkbox-modal {
@@ -411,9 +410,6 @@ img {
     border-color: var(--blue-color);
 }
 
-.policy-checkbox-modal:checked ~ .custom-icon-policy {
-    opacity: 1;
-}
 
 .button-check {
     margin: 0 auto;
